@@ -50,23 +50,29 @@ I came up through platform engineering the unglamorous way, first automating inf
 ## 🏆 Achievements & Awards
 
 🥇 **Platform Reliability Award** | Royal Bank of Canada | Jul 2026
+
 Recognized for standardizing the Camunda workflow orchestration platform behind high-value payment systems and designing its full observability stack, including dashboards, SLI/SLO indicators, and alerting derived from 500+ metrics.
 
 🎖️ **SRE Innovation Award** | Royal Bank of Canada | Oct 2025
+
 Recognized for building LLM-based log analysis and an on-call support chatbot that cut manual incident triage effort 40% across 50+ engineers.
 
 ## 🚀 Key Projects
 
 📡 **RADAR: Real-Time Anomaly Detection & Automated Response** | Open Source | Aug 2026
+
 My current build outside of work. Correlates signals across Prometheus and Datadog, then runs them through a retrieval-augmented generation pipeline grounded in real runbooks to produce actual root cause hypotheses instead of generic pattern matches.
 
 🤖 **AI-Driven Incident Response Engine** | Royal Bank of Canada | Oct 2025
+
 Built LLM-based automated log analysis and an on-call support chatbot that cut manual incident triage effort 40% across 50+ engineers.
 
 🧯 **One-Touch Automated Disaster Recovery Orchestrator** | Royal Bank of Canada | Jun 2025
+
 CLI adopted by 50+ engineers to run disaster recovery workflows, validating health checks, failover state, and rollback readiness before a handoff ever happens.
 
 📊 **Observability Pipeline for High-Value Payment Systems** | Royal Bank of Canada | Dec 2023
+
 Unified logging, tracing, and alerting across 120+ microservices on Datadog, Elastic, Prometheus, and Grafana, cutting MTTD by 30%.
 
 ## 🧰 Tech Stack
