@@ -1,0 +1,44 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#2a2f3a" />
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="1" />
+      <stop offset="70%" stop-color="#0d1117" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" fill="#0d1117" />
+  <rect width="1200" height="260" fill="url(#grid)" />
+
+  <!-- simple node/edge motif suggesting a service graph -->
+  <g stroke="#30363d" stroke-width="1.4" fill="none">
+    <line x1="880" y1="60" x2="1000" y2="110" />
+    <line x1="1000" y1="110" x2="960" y2="200" />
+    <line x1="1000" y1="110" x2="1120" y2="90" />
+    <line x1="960" y1="200" x2="1080" y2="220" />
+    <line x1="1120" y1="90" x2="1080" y2="220" />
+    <line x1="880" y1="60" x2="960" y2="200" />
+  </g>
+  <g fill="#58a6ff">
+    <circle cx="880" cy="60" r="4" />
+    <circle cx="1000" cy="110" r="4" />
+    <circle cx="1120" cy="90" r="4" />
+    <circle cx="960" cy="200" r="4" />
+    <circle cx="1080" cy="220" r="4" />
+  </g>
+
+  <rect width="1200" height="260" fill="url(#fade)" />
+
+  <text x="60" y="118" font-family="Charter, Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#e6edf3">
+    Kashyap Kohli
+  </text>
+  <text x="60" y="156" font-family="'Courier New', monospace" font-size="19" fill="#8b949e">
+    Staff Site Reliability Engineer | Distributed Systems &amp; Reliability Platforms
+  </text>
+  <text x="60" y="188" font-family="'Courier New', monospace" font-size="15" fill="#6e7681">
+    Vancouver, BC · architecture, automation, and AI-native reliability engineering
+  </text>
+</svg>
