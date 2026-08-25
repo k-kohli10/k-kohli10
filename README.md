@@ -100,11 +100,6 @@ Unified logging, tracing, and alerting across 120+ microservices on Datadog, Ela
 
 🎓 **B.Eng in Electrical Engineering** | Gujarat Technological University | Jul 2012 to Jun 2016
 
-📜 **Site Reliability Engineering (SRE) Practitioner** | DevOps Institute | Jul 2024
-
-📜 **Site Reliability Engineering (SRE) Foundation** | DevOps Institute | May 2023
-
-📜 **DevOps and Software Engineering Professional** | IBM | May 2022
 
 ## 📫 Get In Touch
 
