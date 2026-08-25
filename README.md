@@ -47,11 +47,21 @@ I came up through platform engineering the unglamorous way, first automating inf
 
 </div>
 
+## 🧰 Tech Stack
+
+| Category | My Toolkit |
+|---|---|
+| **Platforms & Orchestration** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![OpenShift](https://img.shields.io/badge/Red_Hat_OpenShift-EE0000?style=flat-square&logo=redhat&logoColor=white) ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Camunda](https://img.shields.io/badge/Camunda%2FZeebe-FC5D0D?style=flat-square&logo=camunda&logoColor=white) |
+| **Observability** | ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Elastic](https://img.shields.io/badge/Elastic_Stack-005571?style=flat-square&logo=elastic&logoColor=white) ![Dynatrace](https://img.shields.io/badge/Dynatrace_APM-1496FF?style=flat-square&logo=dynatrace&logoColor=white) |
+| **Automation & Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![GitOps](https://img.shields.io/badge/GitOps-F1502F?style=flat-square&logo=git&logoColor=white) |
+| **CI/CD** | ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
+| **AI / LLM Engineering** | ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white) ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white) ![RAG](https://img.shields.io/badge/RAG_Pipelines-4B8BBE?style=flat-square) |
+
 ## 🏆 Achievements & Awards
 
 🥇 **Platform Reliability Award** | Royal Bank of Canada | Jul 2026
 
-Recognized for standardizing the Camunda workflow orchestration platform behind high-value payment systems and designing its full observability stack, including dashboards, SLI/SLO indicators, and alerting derived from 500+ metrics.
+Recognized for standardizing the workflow orchestration platform behind high-value payment systems and designing its full observability stack, including dashboards, SLI/SLO indicators, and alerting derived from 500+ metrics.
 
 🎖️ **SRE Innovation Award** | Royal Bank of Canada | Oct 2025
 
@@ -74,16 +84,6 @@ CLI adopted by 50+ engineers to run disaster recovery workflows, validating heal
 📊 **Observability Pipeline for High-Value Payment Systems** | Royal Bank of Canada | Dec 2023
 
 Unified logging, tracing, and alerting across 120+ microservices on Datadog, Elastic, Prometheus, and Grafana, cutting MTTD by 30%.
-
-## 🧰 Tech Stack
-
-| Category | Stack |
-|---|---|
-| **Platforms & Orchestration** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![OpenShift](https://img.shields.io/badge/Red_Hat_OpenShift-EE0000?style=flat-square&logo=redhat&logoColor=white) ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Camunda](https://img.shields.io/badge/Camunda%2FZeebe-FC5D0D?style=flat-square&logo=camunda&logoColor=white) |
-| **Observability** | ![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Elastic](https://img.shields.io/badge/Elastic_Stack-005571?style=flat-square&logo=elastic&logoColor=white) ![Dynatrace](https://img.shields.io/badge/Dynatrace_APM-1496FF?style=flat-square&logo=dynatrace&logoColor=white) |
-| **Automation & Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![GitOps](https://img.shields.io/badge/GitOps-F1502F?style=flat-square&logo=git&logoColor=white) |
-| **CI/CD** | ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
-| **AI / LLM Engineering** | ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white) ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white) ![RAG](https://img.shields.io/badge/RAG_Pipelines-4B8BBE?style=flat-square) |
 
 ## 📈 GitHub Activity
 
