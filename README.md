@@ -10,12 +10,6 @@
 
 *⚡ Powered by 99.999% uptime, deliberate chaos engineering, and zero patience for edge cases in production.*
 
-<br>
-
-![Location](https://img.shields.io/badge/📍_Vancouver%2C_BC-30363d?style=for-the-badge)
-![Role](https://img.shields.io/badge/💼_Staff_Site_Reliability_Engineer-1f6feb?style=for-the-badge)
-![Focus](https://img.shields.io/badge/🎯_Reliability_%2B_AI_Systems-8957e5?style=for-the-badge)
-
 </div>
 
 ---
@@ -89,18 +83,22 @@ Unified logging, tracing, and alerting across 120+ microservices on Datadog, Ela
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=k-kohli10&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" width="49%" alt="Kashyap's GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=k-kohli10&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" width="39%" alt="Kashyap's top languages"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=k-kohli10&theme=dark&hide_border=true&background=0d1117&stroke=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="49%" alt="Kashyap's GitHub streak"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=k-kohli10&theme=onedark&no-frame=true&margin-w=8&row=1&column=6" width="80%" alt="Kashyap's GitHub trophies"/>
+<img src="assets/github-stats.svg" width="49%" alt="Kashyap's GitHub stats"/>
+<img src="assets/github-streak.svg" width="49%" alt="Kashyap's GitHub streak"/>
 
 </div>
 
 ## 🎓 Background
 
-M.Eng in Electronic Systems Engineering, University of Regina · SRE certifications through the DevOps Institute · roughly eight years split between critical infrastructure at a provincial energy regulator and payments reliability engineering at one of Canada's largest banks. Based in Vancouver, BC.
+🎓 **M.Eng in Electronic Systems Engineering** | University of Regina | Sept 2016 to Aug 2018
+
+🎓 **B.Eng in Electrical Engineering** | Gujarat Technological University | Jul 2012 to Jun 2016
+
+📜 **Site Reliability Engineering (SRE) Practitioner** | DevOps Institute | Jul 2024
+
+📜 **Site Reliability Engineering (SRE) Foundation** | DevOps Institute | May 2023
+
+📜 **DevOps and Software Engineering Professional** | IBM | May 2022
 
 ## 📫 Get In Touch
 
