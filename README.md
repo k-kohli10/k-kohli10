@@ -28,7 +28,7 @@ I came up through platform engineering the unglamorous way, first automating inf
 
 🎯 **Reliability engineering as a craft, not a checklist.** I develop the observability strategy, SLO frameworks, and failure mode analysis that turn reliability into a property of the system rather than an afterthought. Unified monitoring across 120+ microservices and 99.99% availability at 3x scale is the kind of proof I mean.
 
-🧰 **Tools engineers actually reach for.** Fifty plus engineers now run a disaster recovery CLI I built, and the golden path templates and reliability standards that came out of that work are used organization wide across payments today.
+🧰 **Tools engineers actually reach for.** 50+ engineers now run a disaster recovery utility I built, and the golden path templates and reliability standards that came out of that work are used organization wide across payments today.
 
 🧨 **Chaos engineering, done properly.** Most teams run one chaos exercise and call it a program. I built and ran one spanning the platform, the payment engine, and the infrastructure underneath both, cutting MTTR by close to a third by finding the cracks before customers do.
 
