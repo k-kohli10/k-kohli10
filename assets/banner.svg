@@ -27,6 +27,6 @@
 
   <text x="1150" y="160" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="#ff8a4c">Staff Site Reliability Engineer</text>
 
-  <text x="46" y="253" font-family="'Courier New', monospace" font-size="13" letter-spacing="1" fill="#9aa4b2">POWERED BY 99.999% UPTIME, DELIBERATE CHAOS ENGINEERING,</text>
+  <text x="46" y="253" font-family="'Courier New', monospace" font-size="13" letter-spacing="1" fill="#9aa4b2">POWERED BY 99.99% UPTIME, DELIBERATE CHAOS ENGINEERING,</text>
   <text x="46" y="275" font-family="'Courier New', monospace" font-size="13" letter-spacing="1" fill="#9aa4b2">AND ZERO PATIENCE FOR EDGE CASES.</text>
 </svg>

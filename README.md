@@ -12,15 +12,17 @@
 
 ## 🧑‍💻 Who I am ?
 
-Somewhere in Canada right now, a payment is moving through a system I built the recovery architecture for, and it has no idea how many ways I've already tried to break it before it ever went live.
+Somewhere in Canada right now, a payment is moving through a system I built the resiliency for. It has no idea how many ways I've already tried to break it before trusting it with real money.
 
-I'm a Staff Site Reliability Engineer at Royal Bank of Canada, owning the reliability of payment platforms that move millions of dollars a day, and my real job is architecture: designing the systems, automation, and increasingly AI-assisted tooling that make watching a dashboard mostly unnecessary.
+I'm a Staff Site Reliability Engineer at Royal Bank of Canada, and a big part of my job comes down to one question: what happens when this breaks? I spend my time making sure the answer isn't "everything," across payment platforms that move millions of dollars a day.
+
+I'm suspicious of systems that claim they'll never fail. Lately, that means building automation and AI tooling that can spot problems, investigate what's happening, and sometimes fix them before anyone notices.
 
 <div align="center">
   <img src="assets/embedded-model.svg" alt="Embedded SRE model: involved from planning through build to production, branching into gaining service knowledge, shaping reliability design, and accelerating reliability efforts" width="100%" />
 </div>
 
-I came up through platform engineering the unglamorous way, first automating infrastructure for a provincial energy regulator, then building reliability platforms for one of the country's largest banks. Different industries, same lesson: treat failure as something you design for, not something that surprises you, and build systems that bend under pressure instead of snapping.
+I came up through platform engineering the unglamorous way, first automating infrastructure for a provincial energy regulator, then building reliability of platforms for one of the country's largest banks. Different industries, same lesson: treat failure as something you design for, not something that surprises you, and build systems that bend under pressure instead of snapping.
 
 <div align="center">
   <img src="assets/quick-facts.svg" alt="Quick facts: core specialization, design philosophy, system focus, status" width="100%" />
@@ -53,7 +55,7 @@ I came up through platform engineering the unglamorous way, first automating inf
 ## 📊 Impact, in numbers
 
 <div align="center">
-  <img src="assets/impact-dashboard.svg" alt="Impact dashboard: 99.999% availability, MTTR down 30%, 40% triage cut by AI, 15M+ daily transactions, 120+ microservices unified" width="100%" />
+  <img src="assets/impact-dashboard.svg" alt="Impact dashboard: 99.99% availability, MTTR down 30%, 40% triage cut by AI, 15M+ daily transactions, 120+ microservices unified" width="100%" />
 </div>
 
 ## 🧰 Tech Stack

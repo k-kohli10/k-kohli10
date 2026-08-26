@@ -1,4 +1,4 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="388" viewBox="0 0 1200 388" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="cardBgP" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#12161f"/>
@@ -8,8 +8,8 @@
 
   <!-- Card 1: RADAR -->
   <g>
-    <rect x="30" y="10" width="555" height="190" rx="14" fill="url(#cardBgP)" stroke="#30363d"/>
-    <rect x="30" y="10" width="4" height="190" rx="2" fill="#58a6ff"/>
+    <rect x="30" y="10" width="555" height="174" rx="14" fill="url(#cardBgP)" stroke="#30363d"/>
+    <rect x="30" y="10" width="4" height="174" rx="2" fill="#58a6ff"/>
 
     <circle cx="72" cy="52" r="22" fill="#58a6ff26"/>
     <text x="72" y="52" text-anchor="middle" dominant-baseline="central" font-size="22">&#128225;</text>
@@ -24,15 +24,15 @@
 
     <text font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9aa4b2">
       <tspan x="54" y="120" font-style="italic" fill="#6e7681">Real-time Anomaly Detection and Automated Response</tspan>
-      <tspan x="54" y="142">Multi-agent AI intelligence for SRE incident workflows,</tspan>
-      <tspan x="54" y="162">durable Postgres outbox pattern, zero lost handoffs.</tspan>
+      <tspan x="54" y="142">Multi-agent platform for anomaly detection and response,</tspan>
+      <tspan x="54" y="162">built on a durable Postgres outbox with zero-loss handoffs.</tspan>
     </text>
   </g>
 
   <!-- Card 2: AI Incident Response Engine -->
   <g>
-    <rect x="615" y="10" width="555" height="190" rx="14" fill="url(#cardBgP)" stroke="#30363d"/>
-    <rect x="615" y="10" width="4" height="190" rx="2" fill="#3fb950"/>
+    <rect x="615" y="10" width="555" height="174" rx="14" fill="url(#cardBgP)" stroke="#30363d"/>
+    <rect x="615" y="10" width="4" height="174" rx="2" fill="#3fb950"/>
 
     <circle cx="657" cy="52" r="22" fill="#3fb95026"/>
     <text x="657" y="52" text-anchor="middle" dominant-baseline="central" font-size="22">&#129302;</text>
@@ -46,52 +46,52 @@
     <line x1="615" y1="92" x2="1170" y2="92" stroke="#21262d"/>
 
     <text font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9aa4b2">
-      <tspan x="639" y="122">Embeds and indexes raw logs for semantic retrieval, surfacing</tspan>
-      <tspan x="639" y="142">likely root cause via chat, cutting triage 40% for 50+ engineers.</tspan>
+      <tspan x="639" y="122">AI-powered incident investigation system that embeds and</tspan>
+      <tspan x="639" y="142">indexes logs for semantic retrieval, surfacing root cause via chat.</tspan>
     </text>
   </g>
 
   <!-- Card 3: One-Touch DR Orchestrator -->
   <g>
-    <rect x="30" y="220" width="555" height="190" rx="14" fill="url(#cardBgP)" stroke="#30363d"/>
-    <rect x="30" y="220" width="4" height="190" rx="2" fill="#f0883e"/>
+    <rect x="30" y="204" width="555" height="174" rx="14" fill="url(#cardBgP)" stroke="#30363d"/>
+    <rect x="30" y="204" width="4" height="174" rx="2" fill="#f0883e"/>
 
-    <circle cx="72" cy="262" r="22" fill="#f0883e26"/>
-    <text x="72" y="262" text-anchor="middle" dominant-baseline="central" font-size="22">&#129680;</text>
+    <circle cx="72" cy="246" r="22" fill="#f0883e26"/>
+    <text x="72" y="246" text-anchor="middle" dominant-baseline="central" font-size="22">&#129680;</text>
 
-    <text x="110" y="258" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#f5f5f7">One-Touch DR Orchestrator</text>
-    <text x="110" y="280" font-family="'Courier New', monospace" font-size="12" letter-spacing="1" fill="#8b949e">ROYAL BANK OF CANADA</text>
+    <text x="110" y="242" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#f5f5f7">One-Touch DR Orchestrator</text>
+    <text x="110" y="264" font-family="'Courier New', monospace" font-size="12" letter-spacing="1" fill="#8b949e">ROYAL BANK OF CANADA</text>
 
-    <rect x="475" y="238" width="90" height="24" rx="12" fill="#f0883e20" stroke="#f0883e"/>
-    <text x="520" y="250" text-anchor="middle" dominant-baseline="central" font-family="'Courier New', monospace" font-size="11" letter-spacing="1" fill="#f0883e">JUN 2025</text>
+    <rect x="475" y="222" width="90" height="24" rx="12" fill="#f0883e20" stroke="#f0883e"/>
+    <text x="520" y="234" text-anchor="middle" dominant-baseline="central" font-family="'Courier New', monospace" font-size="11" letter-spacing="1" fill="#f0883e">JUN 2025</text>
 
-    <line x1="30" y1="302" x2="585" y2="302" stroke="#21262d"/>
+    <line x1="30" y1="286" x2="585" y2="286" stroke="#21262d"/>
 
     <text font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9aa4b2">
-      <tspan x="54" y="332">State-machine orchestration collapsing a multi-step DR runbook</tspan>
-      <tspan x="54" y="352">into one command: health, dependencies, failover, rollback.</tspan>
+      <tspan x="54" y="316">State-machine orchestration collapsing a multi-step DR runbook</tspan>
+      <tspan x="54" y="336">into one workflow: health, dependencies, failover, rollback.</tspan>
     </text>
   </g>
 
   <!-- Card 4: Observability Pipeline -->
   <g>
-    <rect x="615" y="220" width="555" height="190" rx="14" fill="url(#cardBgP)" stroke="#30363d"/>
-    <rect x="615" y="220" width="4" height="190" rx="2" fill="#8957e5"/>
+    <rect x="615" y="204" width="555" height="174" rx="14" fill="url(#cardBgP)" stroke="#30363d"/>
+    <rect x="615" y="204" width="4" height="174" rx="2" fill="#8957e5"/>
 
-    <circle cx="657" cy="262" r="22" fill="#8957e526"/>
-    <text x="657" y="262" text-anchor="middle" dominant-baseline="central" font-size="22">&#128202;</text>
+    <circle cx="657" cy="246" r="22" fill="#8957e526"/>
+    <text x="657" y="246" text-anchor="middle" dominant-baseline="central" font-size="22">&#128202;</text>
 
-    <text x="695" y="258" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#f5f5f7">Observability Pipeline</text>
-    <text x="695" y="280" font-family="'Courier New', monospace" font-size="12" letter-spacing="1" fill="#8b949e">ROYAL BANK OF CANADA</text>
+    <text x="695" y="242" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#f5f5f7">Observability Pipeline</text>
+    <text x="695" y="264" font-family="'Courier New', monospace" font-size="12" letter-spacing="1" fill="#8b949e">ROYAL BANK OF CANADA</text>
 
-    <rect x="1060" y="238" width="90" height="24" rx="12" fill="#8957e520" stroke="#8957e5"/>
-    <text x="1105" y="250" text-anchor="middle" dominant-baseline="central" font-family="'Courier New', monospace" font-size="11" letter-spacing="1" fill="#8957e5">DEC 2023</text>
+    <rect x="1060" y="222" width="90" height="24" rx="12" fill="#8957e520" stroke="#8957e5"/>
+    <text x="1105" y="234" text-anchor="middle" dominant-baseline="central" font-family="'Courier New', monospace" font-size="11" letter-spacing="1" fill="#8957e5">DEC 2023</text>
 
-    <line x1="615" y1="302" x2="1170" y2="302" stroke="#21262d"/>
+    <line x1="615" y1="286" x2="1170" y2="286" stroke="#21262d"/>
 
     <text font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9aa4b2">
-      <tspan x="639" y="332">Standardized logging schema and propagated trace IDs across</tspan>
-      <tspan x="639" y="352">120+ microservices into one pane, cutting MTTD 30%.</tspan>
+      <tspan x="639" y="316">Standardized logging schema and propagated trace IDs across</tspan>
+      <tspan x="639" y="336">120+ microservices into one pane, cutting MTTD 30%.</tspan>
     </text>
   </g>
 </svg>

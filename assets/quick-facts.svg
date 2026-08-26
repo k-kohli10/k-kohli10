@@ -23,7 +23,7 @@
     <text x="330" y="114" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#0e0a1f">Recover Fast</text>
     <text x="330" y="220" font-family="'Courier New', monospace" font-size="12" fill="#3a2f5c">RPO: NEAR-ZERO</text>
     <text x="330" y="240" font-family="'Courier New', monospace" font-size="12" fill="#3a2f5c">MTTR: DOWN 30%</text>
-    <text x="330" y="260" font-family="'Courier New', monospace" font-size="12" fill="#3a2f5c">AVAILABILITY: 99.999%</text>
+    <text x="330" y="260" font-family="'Courier New', monospace" font-size="12" fill="#3a2f5c">AVAILABILITY: 99.99%</text>
 
     <circle cx="630" cy="30" r="3" fill="#3fd6c5"/>
     <text x="642" y="36" font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="1" fill="#3fd6c5">SYSTEM FOCUS</text>
