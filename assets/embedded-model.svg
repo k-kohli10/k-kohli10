@@ -1,0 +1,75 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBgE" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12161f"/>
+      <stop offset="100%" stop-color="#1a2233"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top: embedded model card -->
+  <rect x="1" y="1" width="1198" height="138" rx="14" fill="url(#cardBgE)" stroke="#30363d"/>
+  <rect x="1" y="1" width="4" height="138" rx="2" fill="#58a6ff"/>
+
+  <circle cx="44" cy="44" r="22" fill="#58a6ff26"/>
+  <text x="44" y="44" text-anchor="middle" dominant-baseline="central" font-size="22">&#129517;</text>
+
+  <text x="82" y="40" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#f5f5f7">EMBEDDED SRE MODEL</text>
+  <text x="82" y="60" font-family="'Courier New', monospace" font-size="12" letter-spacing="1" fill="#58a6ff">INVOLVED FROM PLANNING TO PRODUCTION</text>
+
+  <g font-family="'Courier New', monospace" font-size="13" font-weight="700">
+    <rect x="360" y="88" width="150" height="32" rx="16" fill="#8957e526" stroke="#8957e5"/>
+    <text x="435" y="104" text-anchor="middle" dominant-baseline="central" fill="#8957e5">PLANNING</text>
+
+    <text x="530" y="104" text-anchor="middle" dominant-baseline="central" fill="#6e7681">&#8594;</text>
+
+    <rect x="550" y="88" width="110" height="32" rx="16" fill="#f0883e26" stroke="#f0883e"/>
+    <text x="605" y="104" text-anchor="middle" dominant-baseline="central" fill="#f0883e">BUILD</text>
+
+    <text x="680" y="104" text-anchor="middle" dominant-baseline="central" fill="#6e7681">&#8594;</text>
+
+    <rect x="700" y="88" width="150" height="32" rx="16" fill="#3fb95026" stroke="#3fb950"/>
+    <text x="775" y="104" text-anchor="middle" dominant-baseline="central" fill="#3fb950">PRODUCTION</text>
+  </g>
+
+  <!-- Connectors: trunk + branches + arrowheads -->
+  <g stroke-width="1.5" fill="none">
+    <line x1="600" y1="139" x2="600" y2="163" stroke="#3f4757"/>
+    <line x1="210" y1="163" x2="990" y2="163" stroke="#3f4757"/>
+    <line x1="210" y1="163" x2="210" y2="184" stroke="#3b82f6"/>
+    <line x1="600" y1="163" x2="600" y2="184" stroke="#a78bfa"/>
+    <line x1="990" y1="163" x2="990" y2="184" stroke="#3fb950"/>
+  </g>
+  <g>
+    <polygon points="204,184 216,184 210,192" fill="#3b82f6"/>
+    <polygon points="594,184 606,184 600,192" fill="#a78bfa"/>
+    <polygon points="984,184 996,184 990,192" fill="#3fb950"/>
+  </g>
+
+  <!-- Bottom: 3 outcome boxes -->
+  <g>
+    <rect x="30" y="200" width="360" height="120" rx="14" fill="url(#cardBgE)" stroke="#30363d"/>
+    <rect x="32" y="202" width="356" height="4" rx="2" fill="#3b82f6"/>
+    <circle cx="210" cy="244" r="22" fill="#3b82f626"/>
+    <text x="210" y="244" text-anchor="middle" dominant-baseline="central" font-size="20">&#129504;</text>
+    <text x="210" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#f5f5f7">Gain Service Knowledge</text>
+    <text x="210" y="310" text-anchor="middle" font-family="'Courier New', monospace" font-size="10.5" fill="#8b949e">DEEP EXPOSURE ACROSS ARCHITECTURES</text>
+  </g>
+
+  <g>
+    <rect x="420" y="200" width="360" height="120" rx="14" fill="url(#cardBgE)" stroke="#30363d"/>
+    <rect x="422" y="202" width="356" height="4" rx="2" fill="#a78bfa"/>
+    <circle cx="600" cy="244" r="22" fill="#a78bfa26"/>
+    <text x="600" y="244" text-anchor="middle" dominant-baseline="central" font-size="20">&#127919;</text>
+    <text x="600" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#f5f5f7">Shape Reliability Design</text>
+    <text x="600" y="310" text-anchor="middle" font-family="'Courier New', monospace" font-size="10.5" fill="#8b949e">GROUNDED IN CHAOS ENGINEERING RESULTS</text>
+  </g>
+
+  <g>
+    <rect x="810" y="200" width="360" height="120" rx="14" fill="url(#cardBgE)" stroke="#30363d"/>
+    <rect x="812" y="202" width="356" height="4" rx="2" fill="#3fb950"/>
+    <circle cx="990" cy="244" r="22" fill="#3fb95026"/>
+    <text x="990" y="244" text-anchor="middle" dominant-baseline="central" font-size="20">&#9889;</text>
+    <text x="990" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#f5f5f7">Accelerate Reliability</text>
+    <text x="990" y="310" text-anchor="middle" font-family="'Courier New', monospace" font-size="10.5" fill="#8b949e">BUILT IN, NOT BOLTED ON LATER</text>
+  </g>
+</svg>

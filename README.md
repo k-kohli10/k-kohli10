@@ -6,23 +6,37 @@
 
 <div align="center">
 
-## 👋 Welcome to my corner of GitHub
-
-*⚡ Powered by 99.999% uptime, deliberate chaos engineering, and zero patience for edge cases in production.*
+### 👋 Welcome to my corner of GitHub.!
 
 </div>
 
----
-
-## 🧑‍💻 About Me
+## 🧑‍💻 Who I am ?
 
 Somewhere in Canada right now, a payment is moving through a system I built the recovery architecture for, and it has no idea how many ways I've already tried to break it before it ever went live.
 
-I'm a Staff Site Reliability Engineer at Royal Bank of Canada, though the title undersells what the role actually is. My team owns the orchestration layer behind payment flows that move billions of dollars a day, and my real job is architecture: designing the systems, automation, and increasingly AI-assisted tooling that make watching a dashboard mostly unnecessary.
+I'm a Staff Site Reliability Engineer at Royal Bank of Canada, owning the reliability of payment platforms that move millions of dollars a day, and my real job is architecture: designing the systems, automation, and increasingly AI-assisted tooling that make watching a dashboard mostly unnecessary.
+
+<div align="center">
+  <img src="assets/embedded-model.svg" alt="Embedded SRE model: involved from planning through build to production, branching into gaining service knowledge, shaping reliability design, and accelerating reliability efforts" width="100%" />
+</div>
 
 I came up through platform engineering the unglamorous way, first automating infrastructure for a provincial energy regulator, then building reliability platforms for one of the country's largest banks. Different industries, same lesson: treat failure as something you design for, not something that surprises you, and build systems that bend under pressure instead of snapping.
 
+<div align="center">
+  <img src="assets/quick-facts.svg" alt="Quick facts: core specialization, design philosophy, system focus, status" width="100%" />
+</div>
+
 ## 🏗️ What I Build
+
+- 🔁 **Recovery architecture that assumes the worst** | zero data loss for high volume payment flows
+- 🎯 **Reliability engineering as a craft** | SLO frameworks and failure mode analysis, not an afterthought
+- 🧰 **Tools engineers actually reach for** | disaster recovery utility used by 50+ engineers
+- 🧨 **Chaos engineering, done properly** | broke things on purpose, cut MTTR by a third
+- 🤖 **AI that earns its keep in production** | LLM tooling cutting manual triage 40% for a 50-person org
+
+<details>
+<summary><b>The longer version, if you've got a minute</b></summary>
+<br>
 
 🔁 **Recovery architecture that assumes the worst.** I designed a zero data loss recovery system for high volume payment flows, layering proactive observability and automated failure detection directly into the system's core, so it starts correcting itself before a human ever has to.
 
@@ -34,17 +48,12 @@ I came up through platform engineering the unglamorous way, first automating inf
 
 🤖 **AI that earns its keep in production.** I've built LLM powered systems for log analysis and incident triage that now handle nearly 40% of what used to be manual detective work across a fifty person engineering org. A language model reading ten thousand log lines outperforms a human doing the same thing, every single time, and that's reason enough to build around it.
 
+</details>
+
 ## 📊 Impact, in numbers
 
 <div align="center">
-
-![MTTR](https://img.shields.io/badge/MTTR-down_30%25-2ea44f?style=for-the-badge)
-![Availability](https://img.shields.io/badge/Availability-99.99%25-2ea44f?style=for-the-badge)
-![Scale](https://img.shields.io/badge/Daily_Transactions-15M%2B-2ea44f?style=for-the-badge)
-![Microservices](https://img.shields.io/badge/Microservices_Unified-120%2B-2ea44f?style=for-the-badge)
-![Triage](https://img.shields.io/badge/Manual_Triage_Cut-40%25-2ea44f?style=for-the-badge)
-![Onboarding](https://img.shields.io/badge/Service_Onboarding-75%25_faster-2ea44f?style=for-the-badge)
-
+  <img src="assets/impact-dashboard.svg" alt="Impact dashboard: 99.999% availability, MTTR down 30%, 40% triage cut by AI, 15M+ daily transactions, 120+ microservices unified" width="100%" />
 </div>
 
 ## 🧰 Tech Stack
@@ -59,31 +68,15 @@ I came up through platform engineering the unglamorous way, first automating inf
 
 ## 🏆 Achievements & Awards
 
-🥇 **Platform Reliability Award** | Royal Bank of Canada | Jul 2026
-
-Recognized for standardizing the workflow orchestration platform behind high-value payment systems and designing its full observability stack, including dashboards, SLI/SLO indicators, and alerting derived from 500+ metrics.
-
-🎖️ **SRE Innovation Award** | Royal Bank of Canada | Oct 2025
-
-Recognized for building LLM-based log analysis and an on-call support chatbot that cut manual incident triage effort 40% across 50+ engineers.
+<div align="center">
+  <img src="assets/awards-cards.svg" alt="Platform Reliability Award (RBC, Jul 2026) and SRE Innovation Award (RBC, Oct 2025)" width="100%" />
+</div>
 
 ## 🚀 Key Projects
 
-📡 **RADAR: Real-Time Anomaly Detection & Automated Response** | Open Source | Aug 2026
-
-My current build outside of work. Correlates signals across Prometheus and Datadog, then runs them through a retrieval-augmented generation pipeline grounded in real runbooks to produce actual root cause hypotheses instead of generic pattern matches.
-
-🤖 **AI-Driven Incident Response Engine** | Royal Bank of Canada | Oct 2025
-
-Built LLM-based automated log analysis and an on-call support chatbot that cut manual incident triage effort 40% across 50+ engineers.
-
-🧯 **One-Touch Automated Disaster Recovery Orchestrator** | Royal Bank of Canada | Jun 2025
-
-CLI adopted by 50+ engineers to run disaster recovery workflows, validating health checks, failover state, and rollback readiness before a handoff ever happens.
-
-📊 **Observability Pipeline for High-Value Payment Systems** | Royal Bank of Canada | Dec 2023
-
-Unified logging, tracing, and alerting across 120+ microservices on Datadog, Elastic, Prometheus, and Grafana, cutting MTTD by 30%.
+<div align="center">
+  <img src="assets/projects-cards.svg" alt="RADAR (Open Source, Aug 2026), AI Incident Response Engine (RBC, Oct 2025), One-Touch DR Orchestrator (RBC, Jun 2025), Observability Pipeline (RBC, Dec 2023)" width="100%" />
+</div>
 
 ## 📈 GitHub Activity
 
@@ -96,9 +89,9 @@ Unified logging, tracing, and alerting across 120+ microservices on Datadog, Ela
 
 ## 🎓 Background
 
-🎓 **M.Eng in Electronic Systems Engineering** | University of Regina | Sept 2016 to Aug 2018
-
-🎓 **B.Eng in Electrical Engineering** | Gujarat Technological University | Jul 2012 to Jun 2016
+<div align="center">
+  <img src="assets/background-cards.svg" alt="M.Eng Electronic Systems Engineering, University of Regina (2016 to 2018) and B.Eng Electrical Engineering, Gujarat Technological University (2012 to 2016)" width="100%" />
+</div>
 
 
 ## 📫 Get In Touch

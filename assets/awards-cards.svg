@@ -1,0 +1,52 @@
+<svg width="1200" height="210" viewBox="0 0 1200 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBgA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12161f"/>
+      <stop offset="100%" stop-color="#1a2233"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card 1: Platform Reliability Award -->
+  <g>
+    <rect x="30" y="10" width="555" height="190" rx="14" fill="url(#cardBgA)" stroke="#30363d"/>
+    <rect x="30" y="10" width="4" height="190" rx="2" fill="#f2b705"/>
+
+    <circle cx="72" cy="52" r="22" fill="#f2b70526"/>
+    <text x="72" y="52" text-anchor="middle" dominant-baseline="central" font-size="22">&#129351;</text>
+
+    <text x="110" y="48" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#f5f5f7">Platform Reliability Award</text>
+    <text x="110" y="70" font-family="'Courier New', monospace" font-size="12" letter-spacing="1" fill="#8b949e">ROYAL BANK OF CANADA</text>
+
+    <rect x="475" y="28" width="90" height="24" rx="12" fill="#f2b70520" stroke="#f2b705"/>
+    <text x="520" y="40" text-anchor="middle" dominant-baseline="central" font-family="'Courier New', monospace" font-size="11" letter-spacing="1" fill="#f2b705">JUL 2026</text>
+
+    <line x1="30" y1="92" x2="585" y2="92" stroke="#21262d"/>
+
+    <text x="30" y="122" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9aa4b2">
+      <tspan x="54" y="122">Standardized Camunda-based orchestration for payments,</tspan>
+      <tspan x="54" y="142">architecting an observability stack across 500+ metrics.</tspan>
+    </text>
+  </g>
+
+  <!-- Card 2: SRE Innovation Award -->
+  <g>
+    <rect x="615" y="10" width="555" height="190" rx="14" fill="url(#cardBgA)" stroke="#30363d"/>
+    <rect x="615" y="10" width="4" height="190" rx="2" fill="#58a6ff"/>
+
+    <circle cx="657" cy="52" r="22" fill="#58a6ff26"/>
+    <text x="657" y="52" text-anchor="middle" dominant-baseline="central" font-size="22">&#127894;</text>
+
+    <text x="695" y="48" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#f5f5f7">SRE Innovation Award</text>
+    <text x="695" y="70" font-family="'Courier New', monospace" font-size="12" letter-spacing="1" fill="#8b949e">ROYAL BANK OF CANADA</text>
+
+    <rect x="1060" y="28" width="90" height="24" rx="12" fill="#58a6ff20" stroke="#58a6ff"/>
+    <text x="1105" y="40" text-anchor="middle" dominant-baseline="central" font-family="'Courier New', monospace" font-size="11" letter-spacing="1" fill="#58a6ff">OCT 2025</text>
+
+    <line x1="615" y1="92" x2="1170" y2="92" stroke="#21262d"/>
+
+    <text font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9aa4b2">
+      <tspan x="639" y="122">Built the LLM log-analysis and on-call response system</tspan>
+      <tspan x="639" y="142">that cut manual triage 40% for a 50-engineer org.</tspan>
+    </text>
+  </g>
+</svg>

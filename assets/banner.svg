@@ -1,54 +1,32 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#2a2f3a" />
-    </pattern>
-    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1a2233" stop-opacity="1" />
-      <stop offset="70%" stop-color="#1a2233" stop-opacity="1" />
-      <stop offset="100%" stop-color="#1a2233" stop-opacity="0.4" />
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050507"/>
+      <stop offset="55%" stop-color="#0a0810"/>
+      <stop offset="100%" stop-color="#1e1636"/>
     </linearGradient>
+    <linearGradient id="metalGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8e8ec"/>
+      <stop offset="100%" stop-color="#7d818c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="12%" r="65%">
+      <stop offset="0%" stop-color="#5b46ad" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5b46ad" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <rect width="1200" height="260" fill="#1a2233" />
-  <rect width="1200" height="260" fill="url(#grid)" />
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
 
-  <!-- service graph motif -->
-  <g stroke="#30363d" stroke-width="1.4" fill="none">
-    <line x1="880" y1="75" x2="1000" y2="125" />
-    <line x1="1000" y1="125" x2="960" y2="215" />
-    <line x1="1000" y1="125" x2="1120" y2="105" />
-    <line x1="960" y1="215" x2="1080" y2="232" />
-    <line x1="1120" y1="105" x2="1080" y2="232" />
-    <line x1="880" y1="75" x2="960" y2="215" />
-  </g>
-  <g fill="#58a6ff">
-    <circle cx="880" cy="75" r="4" />
-    <circle cx="1000" cy="125" r="4" />
-    <circle cx="1120" cy="105" r="4" />
-    <circle cx="960" cy="215" r="4" />
-    <circle cx="1080" cy="232" r="4" />
-  </g>
+  <text x="1150" y="42" text-anchor="end" font-family="'Courier New', monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#ff8a4c">STATUS: OPERATIONAL</text>
 
-  <rect width="1200" height="260" fill="url(#fade)" />
+  <text x="1150" y="270" text-anchor="end" font-family="'Courier New', monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#b9a6ff">📍 LOCATION: VANCOUVER, BC 🇨🇦</text>
 
-  <text x="60" y="140" font-family="Charter, Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#e6edf3">
-    Kashyap Kohli
-  </text>
-  <text x="60" y="178" font-family="'Courier New', monospace" font-size="19" fill="#8b949e">
-    Staff Site Reliability Engineer · Vancouver, BC
-  </text>
+  <text x="46" y="118" font-family="Arial, Helvetica, sans-serif" font-size="118" font-weight="800" letter-spacing="-2" fill="#f5f5f7">KASHYAP</text>
+  <text x="46" y="218" font-family="Arial, Helvetica, sans-serif" font-size="118" font-weight="800" letter-spacing="-2" fill="url(#metalGrad)">KOHLI</text>
 
-  <text x="60" y="222" font-family="'Courier New', monospace" font-size="14" fill="#58a6ff">$</text>
-  <text x="78" y="222" font-family="'Courier New', monospace" font-size="14" fill="#6e7681">uptime --check &#8594; 99.999% resolved · status: operational</text>
+  <text x="1150" y="160" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="#ff8a4c">Staff Site Reliability Engineer</text>
 
-  <!-- terminal title bar -->
-  <rect x="0" y="0" width="1200" height="34" fill="#10141f" />
-  <line x1="0" y1="34" x2="1200" y2="34" stroke="#30363d" stroke-width="1" />
-  <circle cx="24" cy="17" r="6" fill="#ff5f56" />
-  <circle cx="44" cy="17" r="6" fill="#ffbd2e" />
-  <circle cx="64" cy="17" r="6" fill="#27c93f" />
-  <text x="90" y="22" font-family="'Courier New', monospace" font-size="13" fill="#8b949e">kashyap@github: ~</text>
-
-  <rect x="0.5" y="0.5" width="1199" height="259" fill="none" stroke="#30363d" stroke-width="1" />
+  <text x="46" y="253" font-family="'Courier New', monospace" font-size="13" letter-spacing="1" fill="#9aa4b2">POWERED BY 99.999% UPTIME, DELIBERATE CHAOS ENGINEERING,</text>
+  <text x="46" y="275" font-family="'Courier New', monospace" font-size="13" letter-spacing="1" fill="#9aa4b2">AND ZERO PATIENCE FOR EDGE CASES.</text>
 </svg>
