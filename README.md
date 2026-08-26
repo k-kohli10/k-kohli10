@@ -48,7 +48,7 @@ I came up through platform engineering the unglamorous way, first automating inf
 
 🧨 **Chaos engineering, done properly.** Most teams run one chaos exercise and call it a program. I built and ran one spanning the platform, the payment engine, and the infrastructure underneath both, cutting MTTR by close to a third by finding the cracks before customers do.
 
-🤖 **AI that earns its keep in production.** I've built LLM powered systems for log analysis and incident triage that now handle nearly 40% of what used to be manual detective work across a fifty person engineering org. A language model reading ten thousand log lines outperforms a human doing the same thing, every single time, and that's reason enough to build around it.
+🤖 **AI that earns its keep in production.** I've built LLM powered systems for log analysis and incident triage that now handle nearly 40% of what used to be manual detective work across a fifty person engineering org. LLMs can reduce the amount of repetitive log correlation and evidence gathering humans have to perform.
 
 </details>
 
