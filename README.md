@@ -83,7 +83,8 @@ I came up through platform engineering the unglamorous way, first automating inf
 ## 📈 GitHub Activity
 
 <div align="center">
-  <img src="assets/github-stats.svg" width="46%" alt="Kashyap's GitHub stats: stars, commits, pull requests, issues, and repositories contributed to, generated daily from GitHub's own API" />
+  <img src="assets/github-stats.svg" width="49%" alt="Kashyap's GitHub stats: stars, commits, pull requests, issues, and repositories contributed to, generated daily from GitHub's own API" />
+  <img src="assets/github-langs.svg" width="49%" alt="Kashyap's most used languages as a pie chart with per-language percentages, generated daily from GitHub's own API" />
 </div>
 
 ## 🎓 Background

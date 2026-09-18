@@ -1,0 +1,14 @@
+<svg width="340" height="180" viewBox="0 0 340 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="langDescId">
+  <title id="langTitleId">Most Used Languages</title>
+  <desc id="langDescId">Python 95.2%, Shell 2.2%, Dockerfile 0.8%, Makefile 0.8%, Other 1.1%</desc>
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #b9a6ff; }
+    @supports(-moz-appearance: auto) { .header { font-size: 15.5px; } }
+    .stat { font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #c9d1d9; }
+    @supports(-moz-appearance: auto) { .stat { font-size: 12px; } }
+  </style>
+  <rect x="0.5" y="0.5" rx="10" height="179" stroke="#30363d" width="339" fill="#0d1117"/>
+  <text x="25" y="35" class="header">Most Used Languages</text>
+  <circle cx="95" cy="110" r="44" fill="none" stroke="#21262d" stroke-width="16"/><path d="M95.58 66.00 A44 44 0 1 1 81.30 68.19" fill="none" stroke="#3776AB" stroke-width="16"/><path d="M82.40 67.84 A44 44 0 0 1 87.09 66.72" fill="none" stroke="#ff8a4c" stroke-width="16"/><path d="M88.22 66.53 A44 44 0 0 1 89.35 66.36" fill="none" stroke="#4dd0c4" stroke-width="16"/><path d="M90.49 66.23 A44 44 0 0 1 91.47 66.14" fill="none" stroke="#f778ba" stroke-width="16"/><path d="M92.62 66.06 A44 44 0 0 1 94.42 66.00" fill="none" stroke="#5b6270" stroke-width="16"/>
+  <rect x="175" y="64" width="11" height="11" rx="2" fill="#3776AB"/><text x="193" y="74" class="stat">Python</text><text x="315" y="74" class="stat" text-anchor="end">95.2%</text><rect x="175" y="85" width="11" height="11" rx="2" fill="#ff8a4c"/><text x="193" y="95" class="stat">Shell</text><text x="315" y="95" class="stat" text-anchor="end">2.2%</text><rect x="175" y="106" width="11" height="11" rx="2" fill="#4dd0c4"/><text x="193" y="116" class="stat">Dockerfile</text><text x="315" y="116" class="stat" text-anchor="end">0.8%</text><rect x="175" y="127" width="11" height="11" rx="2" fill="#f778ba"/><text x="193" y="137" class="stat">Makefile</text><text x="315" y="137" class="stat" text-anchor="end">0.8%</text><rect x="175" y="148" width="11" height="11" rx="2" fill="#5b6270"/><text x="193" y="158" class="stat">Other</text><text x="315" y="158" class="stat" text-anchor="end">1.1%</text>
+</svg>
