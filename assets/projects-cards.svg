@@ -23,9 +23,9 @@
     <line x1="30" y1="92" x2="585" y2="92" stroke="#21262d"/>
 
     <text font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9aa4b2">
-      <tspan x="54" y="120" font-style="italic" fill="#6e7681">Real-time Anomaly Detection and Automated Response</tspan>
-      <tspan x="54" y="142">Multi-agent platform for anomaly detection and response,</tspan>
-      <tspan x="54" y="162">built on a durable Postgres outbox with zero-loss handoffs.</tspan>
+      <tspan x="54" y="120" font-style="italic" fill="#6e7681">Real-time Agents for Diagnostics, Analysis &amp; Response</tspan>
+      <tspan x="54" y="142">Multi-agent SRE triage: correlates alerts, grades runbooks,</tspan>
+      <tspan x="54" y="162">then reasons RCA over a durable Postgres outbox for on-call.</tspan>
     </text>
   </g>
 

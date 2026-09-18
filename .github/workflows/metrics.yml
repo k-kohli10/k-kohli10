@@ -1,0 +1,40 @@
+name: GitHub Metrics
+
+on:
+  # Regenerate daily at ~06:00 America/Vancouver (13:00 UTC).
+  schedule:
+    - cron: "0 13 * * *"
+  # Allow manual runs from the Actions tab (use this for the first run).
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          # A classic PAT with `repo` scope, stored as a repo secret.
+          # This is what lets private contribution COUNTS show up.
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Whose profile to render, and where to commit the result.
+          user: k-kohli10
+          filename: assets/metrics.svg
+          committer_branch: main
+
+          # Card content.
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Vancouver
+
+          # Full-year contribution calendar (replaces the old streak card).
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Language breakdown across your repos.
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage

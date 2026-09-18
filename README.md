@@ -22,7 +22,7 @@ I'm suspicious of systems that claim they'll never fail. Lately, that means buil
   <img src="assets/embedded-model.svg" alt="Embedded SRE model: involved from planning through build to production, branching into gaining service knowledge, shaping reliability design, and accelerating reliability efforts" width="100%" />
 </div>
 
-I came up through platform engineering the unglamorous way, first automating infrastructure for a provincial energy regulator, then building reliability of platforms for one of the country's largest banks. Different industries, same lesson: treat failure as something you design for, not something that surprises you, and build systems that bend under pressure instead of snapping.
+I came up through platform engineering the unglamorous way, first automating infrastructure for a provincial energy regulator, then building platform reliability for one of the country's largest banks.
 
 <div align="center">
   <img src="assets/quick-facts.svg" alt="Quick facts: core specialization, design philosophy, system focus, status" width="100%" />
@@ -33,8 +33,8 @@ I came up through platform engineering the unglamorous way, first automating inf
 - 🔁 **Recovery architecture that assumes the worst** | zero data loss for high volume payment flows
 - 🎯 **Reliability engineering as a craft** | SLO frameworks and failure mode analysis, not an afterthought
 - 🧰 **Tools engineers actually reach for** | disaster recovery utility used by 50+ engineers
-- 🧨 **Chaos engineering, done properly** | broke things on purpose, cut MTTR by a third
-- 🤖 **AI that earns its keep in production** | LLM tooling cutting manual triage 40% for a 50-person org
+- 🧨 **Chaos engineering, done properly** | broke things on purpose to find the cracks first
+- 🤖 **AI that earns its keep in production** | LLM tooling that runs first-pass incident triage
 
 <details>
 <summary><b>The longer version, if you've got a minute</b></summary>
@@ -42,13 +42,13 @@ I came up through platform engineering the unglamorous way, first automating inf
 
 🔁 **Recovery architecture that assumes the worst.** I designed a zero data loss recovery system for high volume payment flows, layering proactive observability and automated failure detection directly into the system's core, so it starts correcting itself before a human ever has to.
 
-🎯 **Reliability engineering as a craft, not a checklist.** I develop the observability strategy, SLO frameworks, and failure mode analysis that turn reliability into a property of the system rather than an afterthought. Unified monitoring across 120+ microservices and 99.99% availability at 3x scale is the kind of proof I mean.
+🎯 **Reliability engineering as a craft, not a checklist.** I develop the observability strategy, SLO frameworks, and failure mode analysis that turn reliability into a property of the system rather than something you inspect for after the fact.
 
-🧰 **Tools engineers actually reach for.** 50+ engineers now run a disaster recovery utility I built, and the golden path templates and reliability standards that came out of that work are used organization wide across payments today.
+🧰 **Tools engineers actually reach for.** The disaster recovery utility I built spread across the org, and the golden path templates and reliability standards that came out of that work are used organization wide across payments today.
 
-🧨 **Chaos engineering, done properly.** Most teams run one chaos exercise and call it a program. I built and ran one spanning the platform, the payment engine, and the infrastructure underneath both, cutting MTTR by close to a third by finding the cracks before customers do.
+🧨 **Chaos engineering, done properly.** Most teams run one chaos exercise and call it a program. I built and ran one spanning the platform, the payment engine, and the infrastructure underneath both, finding the cracks before customers do.
 
-🤖 **AI that earns its keep in production.** I've built LLM powered systems for log analysis and incident triage that now handle nearly 40% of what used to be manual detective work across a fifty person engineering org. LLMs can reduce the amount of repetitive log correlation and evidence gathering humans have to perform.
+🤖 **AI that earns its keep in production.** I've built LLM powered systems for log analysis and incident triage that now handle much of the repetitive log correlation and evidence gathering humans used to do by hand.
 
 </details>
 
@@ -83,10 +83,7 @@ I came up through platform engineering the unglamorous way, first automating inf
 ## 📈 GitHub Activity
 
 <div align="center">
-
-<img src="assets/github-stats.svg" width="49%" alt="Kashyap's GitHub stats"/>
-<img src="assets/github-streak.svg" width="49%" alt="Kashyap's GitHub streak"/>
-
+  <img src="assets/metrics.svg" width="100%" alt="Kashyap's GitHub metrics: activity, community, repositories, language breakdown, and a full-year contribution calendar, generated daily from GitHub's own APIs" />
 </div>
 
 ## 🎓 Background
