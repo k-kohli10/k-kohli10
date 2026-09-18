@@ -1,4 +1,4 @@
-name: GitHub Metrics
+name: GitHub Stats Card
 
 on:
   # Regenerate daily at ~06:00 America/Vancouver (13:00 UTC).
@@ -11,21 +11,27 @@ permissions:
   contents: write
 
 jobs:
-  github-metrics:
+  render-stats:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate metrics.svg
-        uses: lowlighter/metrics@latest
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          # A classic PAT with `repo` scope, stored as a repo secret.
-          token: ${{ secrets.METRICS_TOKEN }}
+          python-version: "3.x"
 
-          # Whose profile to render, and where to commit the result.
-          user: k-kohli10
-          filename: assets/metrics.svg
-          committer_branch: main
+      - name: Render stats card
+        env:
+          # Classic PAT with `repo` scope, stored as a repo secret.
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python .github/scripts/render_stats.py
 
-          # Card content
-          template: classic
-          base: header, activity, repositories
-          config_timezone: America/Vancouver
+      - name: Commit updated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg
+          git diff --staged --quiet || git commit -m "Update github-stats.svg [skip ci]"
+          git push
