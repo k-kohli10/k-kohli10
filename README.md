@@ -83,7 +83,7 @@ I came up through platform engineering the unglamorous way, first automating inf
 ## 📈 GitHub Activity
 
 <div align="center">
-  <img src="assets/metrics.svg" width="100%" alt="Kashyap's GitHub metrics: activity, community, repositories, language breakdown, and a full-year contribution calendar, generated daily from GitHub's own APIs" />
+  <img src="assets/metrics.svg" width="55%" alt="Kashyap's GitHub metrics: commits, pull requests, issues, and stars earned, generated daily from GitHub's own APIs" />
 </div>
 
 ## 🎓 Background
